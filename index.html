@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Organizador de estudos do Luiz Henrique!!!</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>Organizador de estudos do Luiz Henrique!!!</header>
+
+  <div class="container">
+    <div class="card" onclick="openModal('modal1')">
+      <h3>Procrastinação</h3>
+      <p>Dificuldade em começar tarefas importantes.</p>
+    </div>
+
+    <div class="card" onclick="openModal('modal2')">
+      <h3>Falta de foco</h3>
+      <p>Distrações constantes durante os estudos.</p>
+    </div>
+
+    <div class="card" onclick="openModal('modal3')">
+      <h3>Gestão do tempo</h3>
+      <p>Problemas em equilibrar rotina e prazos.</p>
+    </div>
+  </div>
+
+  <!-- Modais -->
+  <div id="modal1" class="modal">
+    <div class="modal-content">
+      <span class="close" onclick="closeModal('modal1')">&times;</span>
+      <h2>Procrastinação</h2>
+      <p>Esse problema ocorre quando há dificuldade em iniciar tarefas, levando à perda de tempo e acúmulo de atividades.</p>
+    </div>
+  </div>
+
+  <div id="modal2" class="modal">
+    <div class="modal-content">
+      <span class="close" onclick="closeModal('modal2')">&times;</span>
+      <h2>Falta de foco</h2>
+      <p>Distrações como celular e redes sociais atrapalham a concentração, diminuindo a produtividade.</p>
+    </div>
+  </div>
+
+  <div id="modal3" class="modal">
+    <div class="modal-content">
+      <span class="close" onclick="closeModal('modal3')">&times;</span>
+      <h2>Gestão do tempo</h2>
+      <p>Organizar horários e prazos é essencial para evitar sobrecarga e estresse na rotina de estudos.</p>
+    </div>
+  </div>
+
+  <script>
+    function openModal(id) {
+      document.getElementById(id).style.display = "flex";
+    }
+    function closeModal(id) {
+      document.getElementById(id).style.display = "none";
+    }
+  </script>
+</body>
+</html>
