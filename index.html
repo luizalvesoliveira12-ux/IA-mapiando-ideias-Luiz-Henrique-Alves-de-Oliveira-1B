@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Organizador de estudos do Luiz Henrique!!!</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Fundo tridimensional animado -->
+  <div class="bg-scene" aria-hidden="true">
+    <div class="shape shape-1"></div>
+    <div class="shape shape-2"></div>
+    <div class="shape shape-3"></div>
+    <div class="shape shape-4"></div>
+    <div class="shape shape-5"></div>
+    <div class="shape shape-6"></div>
+    <div class="grid-floor"></div>
+  </div>
+
+  <header class="hero">
+    <p class="hero-eyebrow">rotina, estudo e trabalho no mesmo dia</p>
+    <h1 class="hero-title">Organizador de estudos<br>do Luiz Henrique<span class="bang">!!!</span></h1>
+    <p class="hero-sub">Toda pessoa que estuda e trabalha ao mesmo tempo conhece essa lista. Abaixo estão os incômodos mais comuns da rotina — clique em cada card para entender melhor o problema.</p>
+  </header>
+
+  <main class="content">
+    <section class="section-heading">
+      <h2>O que mais pesa na rotina de quem estuda</h2>
+      <p>Cada card representa uma frustração real do dia a dia. Toque para abrir os detalhes.</p>
+    </section>
+
+    <div class="card-grid">
+
+      <!-- Card 1 -->
+      <input type="checkbox" id="modal-1" class="modal-toggle">
+      <label for="modal-1" class="card card-crimson">
+        <span class="card-tag">Comportamento</span>
+        <h3>Procrastinação</h3>
+        <p>Sei exatamente o que preciso estudar, mas sempre encontro um motivo pra deixar pra depois.</p>
+        <span class="card-open">ver detalhes</span>
+      </label>
+      <div class="modal-overlay">
+        <div class="modal">
+          <label for="modal-1" class="modal-close" aria-label="Fechar">×</label>
+          <span class="modal-tag">Comportamento</span>
+          <h3>Procrastinação</h3>
+          <p>A tarefa fica ali, visível, esperando — e mesmo assim outra coisa sempre parece mais urgente. O problema não é falta de vontade, é a dificuldade de dar o primeiro passo quando a tarefa parece grande ou chata.</p>
+          <p class="modal-label">Como aparece no dia a dia:</p>
+          <ul>
+            <li>Abrir o material de estudo e fechar sem ler nada</li>
+            <li>Trocar o estudo por "só mais uma tarefa rápida" que nunca acaba</li>
+            <li>Deixar tudo pra véspera da prova ou da entrega</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Card 2 -->
+      <input type="checkbox" id="modal-2" class="modal-toggle">
+      <label for="modal-2" class="card card-violet">
+        <span class="card-tag">Rotina</span>
+        <h3>Rotina inexistente</h3>
+        <p>Não tenho um horário fixo pra estudar — cada dia é uma tentativa diferente que quase nunca dá certo.</p>
+        <span class="card-open">ver detalhes</span>
+      </label>
+      <div class="modal-overlay">
+        <div class="modal">
+          <label for="modal-2" class="modal-close" aria-label="Fechar">×</label>
+          <span class="modal-tag">Rotina</span>
+          <h3>Rotina inexistente</h3>
+          <p>Sem um horário fixo, o estudo vira algo que só acontece "se sobrar tempo" — e quase nunca sobra. A rotina muda todo dia, e isso torna difícil criar qualquer hábito de estudo consistente.</p>
+          <p class="modal-label">Como aparece no dia a dia:</p>
+          <ul>
+            <li>Estudar em horários aleatórios, sem previsibilidade</li>
+            <li>Começar o dia sem saber quando vai estudar</li>
+            <li>Sensação de estar sempre reagindo, nunca planejando</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Card 3 -->
+      <input type="checkbox" id="modal-3" class="modal-toggle">
+      <label for="modal-3" class="card card-amber">
+        <span class="card-tag">Trabalho x Estudo</span>
+        <h3>Trabalho e estudo disputando o mesmo dia</h3>
+        <p>Depois do expediente, a energia que sobra pra estudar é quase nenhuma.</p>
+        <span class="card-open">ver detalhes</span>
+      </label>
+      <div class="modal-overlay">
+        <div class="modal">
+          <label for="modal-3" class="modal-close" aria-label="Fechar">×</label>
+          <span class="modal-tag">Trabalho x Estudo</span>
+          <h3>Trabalho e estudo disputando o mesmo dia</h3>
+          <p>O dia de trabalho consome tempo e disposição, e o estudo acaba ficando com o que sobra — geralmente pouco. Isso cria a sensação de nunca dar conta de nenhuma das duas coisas direito.</p>
+          <p class="modal-label">Como aparece no dia a dia:</p>
+          <ul>
+            <li>Chegar em casa exausto e sem foco pra abrir os livros</li>
+            <li>Estudar só nos fins de semana, de forma corrida</li>
+            <li>Sentir que uma área sempre atrapalha a outra</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Card 4 -->
+      <input type="checkbox" id="modal-4" class="modal-toggle">
+      <label for="modal-4" class="card card-crimson">
+        <span class="card-tag">Foco</span>
+        <h3>Distrações do celular</h3>
+        <p>Sento pra estudar, o celular vibra, e vinte minutos depois nem lembro o que estava lendo.</p>
+        <span class="card-open">ver detalhes</span>
+      </label>
+      <div class="modal-overlay">
+        <div class="modal">
+          <label for="modal-4" class="modal-close" aria-label="Fechar">×</label>
+          <span class="modal-tag">Foco</span>
+          <h3>Distrações do celular</h3>
+          <p>Notificações, redes sociais e mensagens quebram o foco toda vez que ele começa a se formar. O tempo de estudo vira um tempo picotado, com pouca profundidade de verdade.</p>
+          <p class="modal-label">Como aparece no dia a dia:</p>
+          <ul>
+            <li>Pegar o celular "só pra ver uma coisa" e perder o fio da leitura</li>
+            <li>Levar o dobro do tempo pra terminar uma tarefa simples</li>
+            <li>Sensação de cansaço mesmo estudando pouco</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Card 5 -->
+      <input type="checkbox" id="modal-5" class="modal-toggle">
+      <label for="modal-5" class="card card-violet">
+        <span class="card-tag">Prazos</span>
+        <h3>Prazos e provas de última hora</h3>
+        <p>Descubro que a prova é amanhã e entro em desespero pra dar conta de tudo.</p>
+        <span class="card-open">ver detalhes</span>
+      </label>
+      <div class="modal-overlay">
+        <div class="modal">
+          <label for="modal-5" class="modal-close" aria-label="Fechar">×</label>
+          <span class="modal-tag">Prazos</span>
+          <h3>Prazos e provas de última hora</h3>
+          <p>Sem acompanhar as datas com antecedência, tudo vira urgência ao mesmo tempo. O resultado é uma mistura de ansiedade e estudo apressado, que raramente rende o que poderia.</p>
+          <p class="modal-label">Como aparece no dia a dia:</p>
+          <ul>
+            <li>Lembrar de um trabalho na véspera da entrega</li>
+            <li>Virar a noite estudando conteúdo de semanas em poucas horas</li>
+            <li>Ansiedade que começa dias antes da prova</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Card 6 -->
+      <input type="checkbox" id="modal-6" class="modal-toggle">
+      <label for="modal-6" class="card card-amber">
+        <span class="card-tag">Tarefas</span>
+        <h3>A lista que só cresce</h3>
+        <p>Toda semana entra tarefa nova e as antigas continuam lá, acumulando.</p>
+        <span class="card-open">ver detalhes</span>
+      </label>
+      <div class="modal-overlay">
+        <div class="modal">
+          <label for="modal-6" class="modal-close" aria-label="Fechar">×</label>
+          <span class="modal-tag">Tarefas</span>
+          <h3>A lista que só cresce</h3>
+          <p>Sem um sistema pra dar baixa no que já foi feito, tudo se acumula na cabeça ao mesmo tempo. Isso gera a sensação constante de estar devendo alguma coisa, mesmo nos momentos de descanso.</p>
+          <p class="modal-label">Como aparece no dia a dia:</p>
+          <ul>
+            <li>Perder o controle do que já foi entregue e do que ainda falta</li>
+            <li>Refazer tarefas porque esqueceu que já tinha começado</li>
+            <li>Sensação de peso mental mesmo fora do horário de estudo</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Card 7 -->
+      <input type="checkbox" id="modal-7" class="modal-toggle">
+      <label for="modal-7" class="card card-crimson">
+        <span class="card-tag">Planejamento</span>
+        <h3>Falta de prioridade clara</h3>
+        <p>Tenho muita coisa pra fazer e nenhuma ideia de por onde começar.</p>
+        <span class="card-open">ver detalhes</span>
+      </label>
+      <div class="modal-overlay">
+        <div class="modal">
+          <label for="modal-7" class="modal-close" aria-label="Fechar">×</label>
+          <span class="modal-tag">Planejamento</span>
+          <h3>Falta de prioridade clara</h3>
+          <p>Quando tudo parece igualmente urgente, a mente trava e a energia se dispersa entre tarefas pequenas em vez de ir direto no que realmente importa.</p>
+          <p class="modal-label">Como aparece no dia a dia:</p>
+          <ul>
+            <li>Passar mais tempo decidindo o que fazer do que fazendo</li>
+            <li>Deixar a tarefa mais importante sempre por último</li>
+            <li>Terminar o dia cansado, mas sem sensação de progresso</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Card 8 -->
+      <input type="checkbox" id="modal-8" class="modal-toggle">
+      <label for="modal-8" class="card card-violet">
+        <span class="card-tag">Energia mental</span>
+        <h3>Cansaço de estar sempre correndo atrás</h3>
+        <p>Mesmo nos dias de descanso, a cabeça continua pensando no que ainda falta fazer.</p>
+        <span class="card-open">ver detalhes</span>
+      </label>
+      <div class="modal-overlay">
+        <div class="modal">
+          <label for="modal-8" class="modal-close" aria-label="Fechar">×</label>
+          <span class="modal-tag">Energia mental</span>
+          <h3>Cansaço de estar sempre correndo atrás</h3>
+          <p>Depois de um tempo vivendo em modo de urgência, o cansaço deixa de ser só físico. A mente não descansa de verdade porque sempre tem alguma coisa pendente rodando por trás.</p>
+          <p class="modal-label">Como aparece no dia a dia:</p>
+          <ul>
+            <li>Dificuldade de relaxar mesmo em momentos de folga</li>
+            <li>Sensação de atraso constante, mesmo cumprindo prazos</li>
+            <li>Queda de motivação por acúmulo de cansaço mental</li>
+          </ul>
+        </div>
+      </div>
+
+    </div>
+  </main>
+
+  <footer class="footer">
+    <p>Organizador de estudos do Luiz Henrique — mapear o problema é o primeiro passo pra organizar a rotina.</p>
+  </footer>
+
+</body>
+</html>
